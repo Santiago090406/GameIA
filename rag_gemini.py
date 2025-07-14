@@ -31,7 +31,7 @@ def get_gemini_answer(prompt, api_key, max_tokens=512):
 
 # Ejemplo de uso
 if __name__ == "__main__":
-    API_KEY = "AIzaSyACiPAL_N90PsmuPQBSkOhjURgWwu9X9os"
+    API_KEY = "your_api_key_here"
     pregunta = "¿Qué impacto tiene el anime en la cultura japonesa?"
     respuesta = get_gemini_answer(pregunta, api_key=API_KEY)
     print("Gemini responde:\n", respuesta)
